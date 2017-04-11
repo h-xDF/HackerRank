@@ -1,4 +1,4 @@
-package hackerRankJava.Introduction.JavaOutoutFormatting;
+package Introduction.JavaOutoutFormatting;
 
 import java.util.Scanner;
 

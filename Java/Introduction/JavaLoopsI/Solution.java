@@ -1,4 +1,4 @@
-package hackerRankJava.Introduction.JavaLoopsI;
+package Introduction.JavaLoopsI;
 
 /**
  */

@@ -1,10 +1,9 @@
-package hackerRankJava.Introduction.JavaLoopsII;
+package Introduction.JavaLoopsII;
 
 import java.util.*;
-import java.io.*;
 
 class Solution{
-    public static void main(String []argh){
+    public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int t=in.nextInt();
 
