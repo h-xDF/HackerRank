@@ -1,8 +1,10 @@
-``` US: formattedPayment
-    India: formattedPayment
-    China: formattedPayment
-    France: formattedPayment
-    ```
+```
+US: formattedPayment
+India: formattedPayment
+China: formattedPayment
+France: formattedPayment
+```
+
 ## Sample Input
 
 ```
