@@ -18,18 +18,16 @@ public class Solution {
             arr[i] = sc.nextInt();
         }
 
-        // start solved
         int count = 0;
-        for (int size = 1; size <= n; size ++) {
+        for (int i = 0; i < n; i ++) {
+            int sum = 0;
 
-            for (int start = 0; start <= (n - size); start += size ) {
+            for (int j = i; j < n; j ++) {
 
-                int subSum = 0;
-                 for (int i = start; start <= start + size; start ++) {
-
-                     subSum += arr[i];
-                 }
-                 if (subSum < 0) {count ++;}
+                sum += arr[j];
+                if (sum < 0) {
+                    count ++;
+                }
             }
         }
 
