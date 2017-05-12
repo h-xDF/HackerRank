@@ -30,7 +30,6 @@ class Student {
     }
 }
 
-//Complete the code
 public class Solution
 {
     public static void main(String[] args) {
@@ -43,7 +42,7 @@ public class Solution
         while(testCases>0){
             int id = in.nextInt();
             String fname = in.next();
-            Double cgpa = Double.parseDouble(in.next());
+            Double cgpa = Double.parseDouble(in.next()); // magic?????
 
             Student st = new Student(id, fname, cgpa);
             studentList.add(st);
