@@ -1,4 +1,4 @@
-[Hacker Rank](https://www.hackerrank.com/challenges/java-substring)
+## [Hacker Rank](https://www.hackerrank.com/challenges/java-substring)
 
 ## Input Format
 
