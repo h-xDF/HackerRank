@@ -1,6 +1,5 @@
 package DataStructures.JavaStack;
 
-
 import java.util.*;
 
 public class Solution {
@@ -11,7 +10,6 @@ public class Solution {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        //char[] input = sc.nextLine().toCharArray();
 
         templateCh.put( ']' , '[');
         templateCh.put( '}' , '{' );
@@ -22,6 +20,8 @@ public class Solution {
             System.out.println(isBalanced(input.toCharArray()) ? "true" : "false");
             stack.clear();
         }
+
+        sc.close();
     }
 
     private static Boolean isBalanced(char[] input) {
@@ -30,19 +30,13 @@ public class Solution {
 
             if (templateCh.containsValue(bracket)) {
                 stack.push(bracket);
-            } else if (stack.getFirst().equals(templateCh.get(bracket))) {
+            } else if (!stack.isEmpty() && stack.getFirst().equals(templateCh.get(bracket))) {
                 stack.pop();
             } else {
-/*                System.out.println("Error firs bracket " + stack.getFirst());
-                System.out.println("Error unbrecket " + bracket);*/
                 return false;
             }
         }
 
-        if (stack.isEmpty()) {
-            return true;
-        } else {
-            return false;
-        }
+        return stack.isEmpty();
     }
 }

@@ -1,10 +1,6 @@
 package DataStructures.JavaList;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 
@@ -18,13 +14,14 @@ public class Solution {
         }
 
         int q = sc.nextInt(); // count query
-        String command;
+
         for (int i = 0; i < q; i++) {
-            command = sc.next();
+
+            String command = sc.next();
             if (command.equals("Insert")) {
-                int x = sc.nextInt();
-                int y = sc.nextInt();
-                list.add(x,y);
+                int position = sc.nextInt();
+                int value = sc.nextInt();
+                list.add(position, value);
             } else if (command.equals("Delete")) {
                 list.remove(sc.nextInt());
             } else {
@@ -35,6 +32,5 @@ public class Solution {
         for(int element : list) {
             System.out.printf("%d ",element);
         }
-
     }
 }

@@ -1,10 +1,6 @@
 package DataStructures.Java1DArrayPart2;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 
@@ -23,21 +19,23 @@ public class Solution {
                 arr[j] = sc.nextInt();
             }
 
-            System.out.println(isSolved(arr,0,m,m)||isSolved(arr,0,1,m) ? "YES" : "NO");
+            System.out.println(isSolved(arr,m, 0) ? "YES" : "NO");
         }
+
+        sc.close();
     }
 
-    private static Boolean isSolved(int[] arr, int position, int step, int m) {
+    private static Boolean isSolved(int[] arr, int bigStep, int newPosition) {
 
-        int newPosition = position + step;
-        if(newPosition >= arr.length) {
-            return true;
-        } else if(arr[newPosition] == 1) {
+        if ( newPosition < 0 || arr[newPosition] == 1) {
             return false;
+        } else if (newPosition + 1 >= arr.length ||  newPosition + bigStep >= arr.length) {
+            return true;
         } else {
-            arr[position] = 1; // marks as visited
-            return isSolved(arr,newPosition, 1,m) || isSolved(arr,newPosition, -1,m) || isSolved(arr,newPosition, m,m);
+            arr[newPosition] = 1; // is no loop
+            return     isSolved(arr, bigStep, newPosition - 1)
+                    || isSolved(arr, bigStep, newPosition + 1)
+                    || isSolved(arr, bigStep, newPosition + bigStep);
         }
     }
-
 }

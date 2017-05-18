@@ -1,10 +1,6 @@
 package DataStructures.JavaHashset;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 
@@ -15,20 +11,32 @@ public class Solution {
         //s.next();
         Set<String> set = new HashSet<>();
 
-        /*String[] pair_left = new String[t];
-        String[] pair_right = new String[t];*/
+        String[] pair_left = new String[t];
+        String[] pair_right = new String[t];
 
         for (int i = 0; i < t; i++) {
 
-            String pair = s.nextLine();
+            pair_left[i] = s.next();
+            pair_right[i] = s.next();
+
+            String pair = pair_left[i] + ' ' + pair_right[i];
             set.add(pair);
             System.out.println(set.size());
-            /*pair_left[i] = s.next();
-            pair_right[i] = s.next();*/
         }
 
         for (String pair : set) {
             System.out.println(pair);
+        }
+
+        System.out.println("++++++++++++++++++++++++++++++");
+
+        Set<String> left = new HashSet<>();
+        Set<String> right = new HashSet<>();
+
+        for (int i = 0; i < t; i++) {
+            left.add(pair_left[i]);
+            right.add(pair_right[i]);
+            System.out.println( left.size() > right.size() ? left.size() : right.size());
         }
     }
 }

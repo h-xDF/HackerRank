@@ -1,10 +1,6 @@
 package DataStructures.JavaSubarray;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
 
@@ -17,6 +13,8 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+
+        sc.close();
 
         int count = 0;
         for (int i = 0; i < n; i ++) {
