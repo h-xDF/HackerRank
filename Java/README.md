@@ -1,5 +1,3 @@
-## Java
-
 # Java
 
 |            Part             |                                                         Challenge                                                        |                                                               Solution                                                                                        |
