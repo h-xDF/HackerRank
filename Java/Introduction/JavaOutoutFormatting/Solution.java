@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("================================");
-        for(int i=0;i<1;i++)
-        {
+        for(int i=0; i<1; i++) {
             String s1 = sc.next();
             int x = sc.nextInt();
             //String bifFormat = String.valueOf(x);
