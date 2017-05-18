@@ -7,7 +7,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double payment = scanner.nextDouble();
+        double payment = Double.parseDouble(scanner.next());
         scanner.close();
 
         Locale uslocale = new Locale.Builder().setLanguage("en").setRegion("US").build();
