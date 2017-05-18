@@ -1,3 +1,5 @@
+## [Hacker Rank](https://www.hackerrank.com/challenges/java-static-initializer-block)
+
 ## Input Format
 
 There are two lines of input. The first line contains : the breadth of the parallelogram. The next line contains : the height of the parallelogram.

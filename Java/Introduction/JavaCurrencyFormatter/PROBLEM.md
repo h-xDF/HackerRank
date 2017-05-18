@@ -1,3 +1,5 @@
+## [Hacker Rank](https://www.hackerrank.com/challenges/java-currency-formatter)
+
 ```
 US: formattedPayment
 India: formattedPayment

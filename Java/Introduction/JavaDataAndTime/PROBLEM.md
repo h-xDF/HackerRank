@@ -1,3 +1,5 @@
+## [Hacker Rank](https://www.hackerrank.com/challenges/java-date-and-time)
+
 ```You are given a date. Your task is to find what the day is on that date.```
 
 ## Input Format
