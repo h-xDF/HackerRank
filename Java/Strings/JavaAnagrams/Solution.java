@@ -23,35 +23,18 @@ public class Solution {
             }
         }
         return true;
-
-        /*System.out.println(countCodeChar(a));
-        System.out.println(countCodeChar(b));
-
-        return (countCodeChar(a) == countCodeChar(b)) ? true : false;*/
     }
-
-    /*static int countCodeChar(String s) {
-
-        int buf = 0;
-        for (Character ch: s.toLowerCase().toCharArray()) {
-
-            buf += (int) ch;
-        }
-        return buf;
-    }*/
-
 
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        // 16 Test Case
+
         String a = "a"; //scan.next();
         String b = "z"; //scan.next();
 
         scan.close();
 
-        boolean ret = isAnagram(a, b);
-        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+        System.out.println( isAnagram(a, b) ? "Anagrams" : "Not Anagrams" );
     }
 }
 

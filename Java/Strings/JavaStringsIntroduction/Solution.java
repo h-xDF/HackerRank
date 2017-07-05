@@ -11,7 +11,7 @@ public class Solution {
         String B = sc.next();
         sc.close();
 
-        String lexic = A.compareTo(B) > 0 ? "Yes" : "No";  /// ???
+        String lexic = A.compareTo(B) > 0 ? "Yes" : "No";
 
         A = A.substring(0,1).toUpperCase() + A.substring(1);
         B = B.substring(0,1).toUpperCase() + B.substring(1);
