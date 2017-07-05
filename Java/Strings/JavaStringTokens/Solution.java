@@ -12,10 +12,19 @@ public class Solution {
         //scan.close();
 
         String str = "This is an example string, right?  Yes!";
+
+        str.trim();
+
+       /* if (str.length() == 0) {
+            System.out.println(0);
+            return;
+        }*/
+
         String delims = "[^A-Za-z]+";//"[ !,?._'@]+";
         String[] tokens = str.split(delims);
 
         System.out.println(tokens.length);
+
         for (String token : tokens) {
             System.out.println(token);
         }
