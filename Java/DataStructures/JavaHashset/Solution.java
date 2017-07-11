@@ -23,20 +23,5 @@ public class Solution {
             set.add(pair);
             System.out.println(set.size());
         }
-
-        for (String pair : set) {
-            System.out.println(pair);
-        }
-
-        System.out.println("++++++++++++++++++++++++++++++");
-
-        Set<String> left = new HashSet<>();
-        Set<String> right = new HashSet<>();
-
-        for (int i = 0; i < t; i++) {
-            left.add(pair_left[i]);
-            right.add(pair_right[i]);
-            System.out.println( left.size() > right.size() ? left.size() : right.size());
-        }
     }
 }

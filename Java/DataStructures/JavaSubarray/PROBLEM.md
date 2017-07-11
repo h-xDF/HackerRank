@@ -7,7 +7,7 @@ The first line contains a single int, denoting the length array;
 The second line contains space-separated integers;
 
 ## Output
-Print the number of subarrays of  having negative sums.
+Print the number of subarrays of having negative sums.
 
 ## Sample Input
 ```
