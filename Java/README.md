@@ -37,7 +37,7 @@
 |       Data Structures       | [Java Hashset](https://www.hackerrank.com/challenges/java-hashset)                                                       | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/DataStructures/JavaHashset/Solution.java)                |
 |       Data Structures       | [Java Generics](https://www.hackerrank.com/challenges/java-generics)                                                     | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/DataStructures/JavaGenerics/Solution.java)               |
 |       Data Structures       | [Java Comparator](https://www.hackerrank.com/challenges/java-comparator)                                                 | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/DataStructures/JavaComparator/Solution.java)             |
-|       Data Structures       | [Java Sort](https://www.hackerrank.com/challenges/java-sort)                                                             |   |
+|       Data Structures       | [Java Sort](https://www.hackerrank.com/challenges/java-sort)                                                             | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/DataStructures/JavaSort/Solution.java)                   |
 |       Data Structures       | [Java Dequeue](https://www.hackerrank.com/challenges/java-dequeue)                                                       |   |
 |       Data Structures       | [Java BitSet](https://www.hackerrank.com/challenges/java-bitset)                                                         |   |
 |       Data Structures       | [Java Priority Queue](https://www.hackerrank.com/challenges/java-priority-queue)                                         |   |

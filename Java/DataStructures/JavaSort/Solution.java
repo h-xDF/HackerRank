@@ -1,8 +1,6 @@
 package DataStructures.JavaSort;
 
-import java.lang.reflect.Array;
 import java.util.*;
-import java.util.function.ToDoubleFunction;
 
 class Student {
 
@@ -50,8 +48,7 @@ public class Solution
             testCases--;
         }
 
-        studentList.sort(new ComparatorStudentCGPA().thenComparing(new ComparatorStudentID()));
-
+        studentList.sort(new ComparatorStudentCGPA().thenComparing(new ComparatorStudentName()).thenComparing(new ComparatorStudentID()));
 
         for(Student st: studentList){
             System.out.println(st.getFname());
@@ -65,6 +62,15 @@ class ComparatorStudentCGPA implements Comparator<Student> {
     public int compare(Student o1, Student o2) {
 
         return Double.compare(o2.getCgpa(), o1.getCgpa());
+    }
+}
+
+class ComparatorStudentName implements Comparator<Student> {
+
+    @Override
+    public int compare(Student o1, Student o2) {
+
+        return o1.getFname().compareTo(o2.getFname());
     }
 }
 
