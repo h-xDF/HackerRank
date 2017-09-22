@@ -1,6 +1,5 @@
 package DataStructures.JavaComparator;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
@@ -19,6 +18,7 @@ class Checker implements Comparator<Player> {
 }
 
 class Player {
+
     String name;
     int score;
 
