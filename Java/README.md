@@ -35,7 +35,7 @@
 |       Data Structures       | [Java Map](https://www.hackerrank.com/challenges/phone-book)                                                             | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/DataStructures/JavaMap/Solution.java)                    |
 |       Data Structures       | [Java Stack](https://www.hackerrank.com/challenges/java-stack)                                                           | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/DataStructures/JavaStack/Solution.java)                  |
 |       Data Structures       | [Java Hashset](https://www.hackerrank.com/challenges/java-hashset)                                                       | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/DataStructures/JavaHashset/Solution.java)                |
-|       Data Structures       | [Java Generics](https://www.hackerrank.com/challenges/java-generics)                                                     |   |
+|       Data Structures       | [Java Generics](https://www.hackerrank.com/challenges/java-generics)                                                     | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/DataStructures/JavaGenerics/Solution.java)               |
 |       Data Structures       | [Java Comparator](https://www.hackerrank.com/challenges/java-comparator)                                                 |   |
 |       Data Structures       | [Java Sort](https://www.hackerrank.com/challenges/java-sort)                                                             |   |
 |       Data Structures       | [Java Dequeue](https://www.hackerrank.com/challenges/java-dequeue)                                                       |   |
