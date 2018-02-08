@@ -41,11 +41,11 @@
 |       Data Structures       | [Java Dequeue](https://www.hackerrank.com/challenges/java-dequeue)                                                       |   |
 |       Data Structures       | [Java BitSet](https://www.hackerrank.com/challenges/java-bitset)                                                         |   |
 |       Data Structures       | [Java Priority Queue](https://www.hackerrank.com/challenges/java-priority-queue)                                         |   |
-| Object Oriented Programming | [Java Inheritance I](https://www.hackerrank.com/challenges/java-inheritance-1)                                           |    |
-| Object Oriented Programming | [Java Inheritance II](https://www.hackerrank.com/challenges/java-inheritance-2)                                          |   |
-| Object Oriented Programming | [Java Abstract Class](https://www.hackerrank.com/challenges/java-abstract-class)                                         |   |
-| Object Oriented Programming | [Java Interface](https://www.hackerrank.com/challenges/java-interface)                                                   |   |
-| Object Oriented Programming | [Java Method Overriding](https://www.hackerrank.com/challenges/java-method-overriding)                                   |   |
+| Object Oriented Programming | [Java Inheritance I](https://www.hackerrank.com/challenges/java-inheritance-1)                                           | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/OOP/JavaInheritanceI/Solution.java)                      |
+| Object Oriented Programming | [Java Inheritance II](https://www.hackerrank.com/challenges/java-inheritance-2)                                          | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/OOP/JavaInheritanceII/Solution.java)                     |
+| Object Oriented Programming | [Java Abstract Class](https://www.hackerrank.com/challenges/java-abstract-class)                                         | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/OOP/JavaAbstractClass/Main.java)                         |
+| Object Oriented Programming | [Java Interface](https://www.hackerrank.com/challenges/java-interface)                                                   | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/OOP/JavaInterface/Solution.java)                         |
+| Object Oriented Programming | [Java Method Overriding](https://www.hackerrank.com/challenges/java-method-overriding)                                   | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/OOP/JavaMethodOverriding/Solution.java)                  |
 | Object Oriented Programming | [Java Method Overriding 2 (Super Keyword)](https://www.hackerrank.com/challenges/java-method-overriding-2-super-keyword) |   |
 | Object Oriented Programming | [Java Instanceof keyword](https://www.hackerrank.com/challenges/java-instanceof-keyword)                                 |   |
 | Object Oriented Programming | [Java Iterator](https://www.hackerrank.com/challenges/java-iterator)                                                     |   |
