@@ -50,7 +50,7 @@
 | Object Oriented Programming | [Java Instanceof keyword](https://www.hackerrank.com/challenges/java-instanceof-keyword)                                 | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/OOP/JavaInstanceofKeyword/InstanceOFTutorial.java)               |
 | Object Oriented Programming | [Java Iterator](https://www.hackerrank.com/challenges/java-iterator)                                                     | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/OOP/JavaIterator/Main.java)                                      |
 |      Exception Handling     | [Java Exception Handling (Try-catch)](https://www.hackerrank.com/challenges/java-exception-handling-try-catch)           | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/ExceptionHandling/JavaExceptionHandlingTryCatch/Solution.java)   |
-|      Exception Handling     | [Java Exception Handling](https://www.hackerrank.com/challenges/java-exception-handling)                                 |   |
+|      Exception Handling     | [Java Exception Handling](https://www.hackerrank.com/challenges/java-exception-handling)                                 | [java](https://github.com/h-xDF/HackerRank/blob/master/Java/ExceptionHandling/JavaExceptionHandling/Solution.java)           |
 |           Advanced          | [Java Varargs - Simple Addition](https://www.hackerrank.com/challenges/simple-addition-varargs)                          |   |
 |           Advanced          | [Java Reflection - Attributes](https://www.hackerrank.com/challenges/java-reflection-attributes)                         |   |
 |           Advanced          | [Can You Access](https://www.hackerrank.com/challenges/can-you-access)                                                   |   |
