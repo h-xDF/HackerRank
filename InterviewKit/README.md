@@ -1,6 +1,6 @@
 # Interview Preparation Kit
 
-|            Part             |                                                         Challenge                                                        |                                                               Solution                                                                                        |
+|            Part             |                                                         Challenge                                                        |                                                               Solution                                                       |
 |:---------------------------:|:------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|
-|       Warm-up Challenge     | [Socket Merchant](https://www.hackerrank.com/challenges/sock-merchant)                                                   | [kotlin]()                                                       |
-|       Warm-up Challenge     | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys)                                               | [kotlin]()                                                       |
+|       Warm-up Challenge     | [Socket Merchant](https://www.hackerrank.com/challenges/sock-merchant)                                                   | [kotlin](https://github.com/h-xDF/HackerRank/blob/master/InterviewKit/warmupChallenge/SockMerchant/Solution.kt)              |
+|       Warm-up Challenge     | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys)                                               | [kotlin](https://github.com/h-xDF/HackerRank/blob/master/InterviewKit/warmupChallenge/CountingValleys/Solution.kt)           |
