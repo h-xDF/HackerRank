@@ -1,4 +1,4 @@
-package warmupChallenge.Array2D
+package Arrays.Array2D
 
 import java.util.*
 
